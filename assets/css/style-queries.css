@@ -186,8 +186,6 @@
     header {
         padding-top: 50px;
         font-weight: 400;
-        max-width: 928px;
-        min-width: 320px;
         padding-left: 100px;
         display: flex;
         flex-direction: column;
