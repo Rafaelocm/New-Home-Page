@@ -182,12 +182,13 @@
 }
 
 @media screen and (max-width: 720px) {
-
-    body{
+    
+    *{
         overflow-x: hidden;
     }
 
     header {
+        overflow-x: hidden;
         padding-top: 50px;
         font-weight: 400;
         padding-left: 100px;
@@ -216,6 +217,7 @@
     }
 
     main {
+        overflow-x: hidden;
         margin-bottom: 50px;
         padding-left: 100px;
         padding-right: 100px;
