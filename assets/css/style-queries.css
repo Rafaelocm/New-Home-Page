@@ -1,0 +1,362 @@
+:root {
+    /*Cores Primarias*/
+    --corPrimaria01: hsl(35, 77%, 62%);
+    --corPrimaria02: hsl(5, 85%, 63%);
+
+    --corNeutra01: hsl(36, 100%, 99%);
+    --corNeutra02: hsl(233, 8%, 79%);
+    --corNeutra03: hsl(236, 13%, 42%);
+    --corNeutra04: hsl(240, 100%, 5%);
+    --corNeutra05: hsla(236, 13%, 42%, 0.651);
+
+}
+
+
+@media screen and (max-width: 1038px) {
+
+    header {
+        font-weight: 400;
+        max-width: 928px;
+        min-width: 320px;
+        padding-left: 100px;
+        display: flex;
+        align-items: center;
+        height: 100px;
+    }
+
+    header>.logo {
+        width: 50px;
+    }
+
+    nav {
+        padding-right: 20px;
+        width: 100%;
+        text-align: end;
+    }
+
+    nav>a {
+        padding: 10px;
+        text-decoration: none;
+        color: var(--corNeutra03);
+    }
+
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 75% 83%;
+        max-width: 100%;
+    }
+
+    .divImage {
+        max-width: 850px;
+        min-width: 280px;
+    }
+
+    .divImage img {
+        max-width: 95%;
+    }
+
+    .futureWeb {
+        margin-top: -20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .futureWeb>h1 {
+        line-height: 1.2em;
+        font-weight: 800;
+        font-size: 2em;
+        width: 45%;
+    }
+
+    .futureWeb>div {
+        margin-top: 50px;
+        width: 70%;
+    }
+
+    .futureWeb>div>p {
+        color: var(--corNeutra03);
+        line-height: 1.3em;
+        text-align: justify;
+        font-weight: 400;
+        font-size: 1em;
+    }
+
+    .futureWeb>div>button {
+        margin-left: 25%;
+        letter-spacing: .2em;
+        margin-top: 15px;
+        border: 0;
+        height: 35px;
+        width: 150px;
+        background-color: var(--corPrimaria02);
+        color: white;
+    }
+
+    .noticiasNovas {
+        align-items: center;
+        background-color: var(--corNeutra04);
+        max-height: 100%;
+        max-width: 38%;
+    }
+
+    .noticiasNovas h1,
+    h2,
+    p {
+        max-height: 80%;
+        max-width: 80%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .noticiasNovas>h1 {
+        color: var(--corPrimaria01);
+        font-family: Inter, sans-serif;
+        font-weight: 700;
+        padding-top: 25px;
+        font-size: 1.5em;
+    }
+
+    .noticiasNovas>h2 {
+        color: white;
+        font-size: .8em;
+        padding-top: 20px;
+    }
+
+    .noticiasNovas>p {
+        padding-bottom: 25px;
+        padding-top: 15px;
+        color: var(--corNeutra02);
+        font-size: .79em;
+    }
+
+    .noticiasNovas>hr {
+        color: var(--corNeutra03);
+        margin: auto;
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 880px) {
+    .OutrosAssuntos {
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: 37% 37% 35%;
+    }
+
+    .grid-item {
+        width: 100%;
+        display: flex;
+    }
+
+    .grid-item img {
+        max-width: 35%;
+    }
+
+    .grid-item-text>span {
+        padding-right: 0;
+        color: var(--corNeutra05);
+        font-size: 1.2em;
+        font-weight: 700;
+        padding-left: 15px;
+    }
+
+    .grid-item-text>h2 {
+        padding-right: 0;
+        padding-left: 15px;
+        padding-top: 5px;
+        font-weight: 700;
+        width: 100%;
+        font-size: .95em;
+    }
+
+    .grid-item-text>p {
+        padding-right: 0;
+        padding-left: 15px;
+        padding-top: 5px;
+        font-weight: 400;
+        width: 100%;
+        font-size: .85em;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    header {
+        padding-top: 50px;
+        font-weight: 400;
+        max-width: 928px;
+        min-width: 320px;
+        padding-left: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100px;
+    }
+
+    header>.logo {
+        width: 50px;
+    }
+
+    nav {
+        padding-top: 25px;
+        max-width: 90%;
+        min-width: 80%;
+        text-align: center;
+    }
+
+    nav>a {
+        font-size: .8em;
+        padding: 5px;
+        text-decoration: none;
+        color: var(--corNeutra03);
+    }
+
+    main {
+        margin-bottom: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        max-width: 680px;
+        min-width: 280px;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .divImage {
+        padding-left: 10px;
+        max-width: 680px;
+        min-width: 280px;
+    }
+
+    .divImage img {
+        max-width: 100%;
+    }
+
+    .futureWeb {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .futureWeb>h1 {
+        line-height: 1.2em;
+        font-weight: 800;
+        font-size: 2em;
+        width: 100%;
+    }
+
+    .futureWeb>div {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .futureWeb>div>p {
+        padding: 0;
+        color: var(--corNeutra03);
+        line-height: 1.4em;
+        text-align: justify;
+        font-weight: 400;
+        font-size: 1em;
+    }
+
+    .futureWeb>div>button {
+        letter-spacing: .2em;
+        margin-top: 20px;
+        border: 0;
+        height: 35px;
+        width: 150px;
+        background-color: var(--corPrimaria02);
+        color: white;
+    }
+
+    .noticiasNovas {
+        align-items: center;
+        background-color: var(--corNeutra04);
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .noticiasNovas h1,
+    h2,
+    p {
+        max-height: 80%;
+        max-width: 80%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .noticiasNovas>h1 {
+        color: var(--corPrimaria01);
+        font-family: Inter, sans-serif;
+        font-weight: 700;
+        padding-top: 25px;
+        font-size: 1.5em;
+    }
+
+    .noticiasNovas>h2 {
+        color: white;
+        font-size: .8em;
+        padding-top: 20px;
+    }
+
+    .noticiasNovas>p {
+        padding-bottom: 25px;
+        padding-top: 15px;
+        color: var(--corNeutra02);
+        font-size: .79em;
+    }
+
+    .noticiasNovas>hr {
+        color: var(--corNeutra03);
+        margin: auto;
+        width: 90%;
+    }
+
+    .OutrosAssuntos {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-item {
+        padding-top: 50px;
+        width: 100%;
+        display: flex;
+    }
+
+    .grid-item img {
+        max-width: 35%;
+    }
+
+    .grid-item-text>span {
+        padding-right: 0;
+        color: var(--corNeutra05);
+        font-size: 2em;
+        font-weight: 700;
+        padding-left: 15px;
+    }
+
+    .grid-item-text>h2 {
+        padding-right: 0;
+        padding-left: 15px;
+        padding-top: 5px;
+        font-weight: 700;
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+    .grid-item-text>p {
+        padding-right: 0;
+        padding-left: 15px;
+        padding-top: 10px;
+        font-weight: 400;
+        width: 100%;
+        font-size: 1em;
+    }
+}
