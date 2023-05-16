@@ -37,29 +37,30 @@ header {
     height: 100px;
 }
 
-nav.navbar{
+nav.navbar {
     max-width: 100%;
 }
 
-.navbar .container-fluid{
+.navbar .container-fluid {
     max-width: 1350px;
 }
 
-.nav-item-ul{
+.nav-item-ul {
     list-style: none;
     color: var(--corNeutra03);
 }
 
-.nav-item-ul li{
+.nav-item-ul li {
     padding-left: 30px;
 }
 
-.nav-item a{
+.nav-item a {
     font-size: 1.3em;
 }
 
-.nav-item a:hover{
-    color: hsl(5, 85%, 63%);;
+.nav-item a:hover {
+    color: hsl(5, 85%, 63%);
+    ;
 }
 
 .navbar-toggler {
@@ -108,7 +109,7 @@ main {
 .futureWeb>div>p {
     margin: 0;
     padding: 0;
-    color: var(--corNeutra03);
+    color: var(--corNeutra04);
     line-height: 1.8em;
     font-size: 1.3em;
     text-align: justify;
@@ -116,6 +117,7 @@ main {
 }
 
 .futureWeb>div>button {
+    font-size: 1em;
     letter-spacing: .2em;
     margin-top: 15px;
     border: 0;
@@ -125,7 +127,7 @@ main {
     color: white;
 }
 
-.futureWeb>div>button:hover{
+.futureWeb>div>button:hover {
     transition-duration: .5s;
     background-color: var(--corNeutra04);
 }
