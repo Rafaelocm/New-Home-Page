@@ -1,0 +1,135 @@
+:root {
+    /*Cores Primarias*/
+    --corPrimaria01: hsl(35, 77%, 62%);
+    --corPrimaria02: hsl(5, 85%, 63%);
+
+    --corNeutra01: hsl(36, 100%, 99%);
+    --corNeutra02: hsl(233, 8%, 79%);
+    --corNeutra03: hsl(236, 13%, 42%);
+    --corNeutra04: hsl(240, 100%, 5%);
+    --corNeutra05: hsla(236, 13%, 42%, 0.651);
+
+}
+
+
+@media screen and (max-width: 1038px) {
+
+    header {
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        height: 100px;
+    }
+
+    nav.navbar{
+        max-width: 100%;
+    }
+    
+    .navbar .container-fluid{
+        max-width: 928px;
+    }
+    
+    main {
+        margin: 50px auto;
+        max-width: 928px;
+        min-width: 320px;
+        padding-right: 5%;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 75% 83%;
+        max-width: 100%;
+    }
+
+    .divImage {
+        max-width: 850px;
+        min-width: 280px;
+    }
+
+    .divImage img {
+        max-width: 95%;
+    }
+
+    .futureWeb {
+        margin: 0;
+        display: flex;
+    }
+
+    .futureWeb>h1 {
+        padding-left: 25px;
+        line-height: 1.2em;
+        font-weight: 800;
+        font-size: 2em;
+        width: 40%;
+    }
+
+    .futureWeb>div {
+        margin-top: 50px;
+        width: 60%;
+    }
+
+    .futureWeb>div>p {
+        color: var(--corNeutra03);
+        line-height: 1.3em;
+        text-align: justify;
+        font-weight: 400;
+        font-size: 1em;
+    }
+
+    .futureWeb>div>button {
+        margin-left: 20%;
+        letter-spacing: .2em;
+        margin-top: 15px;
+        border: 0;
+        height: 35px;
+        width: 150px;
+        background-color: var(--corPrimaria02);
+        color: white;
+    }
+
+    .noticiasNovas {
+        align-items: center;
+        background-color: var(--corNeutra04);
+        max-height: 100%;
+        max-width: 38%;
+    }
+
+    .noticiasNovas h1,
+    h2,
+    p {
+        max-height: 80%;
+        max-width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .noticiasNovas>h1 {
+        color: var(--corPrimaria01);
+        font-family: Inter, sans-serif;
+        font-weight: 700;
+        padding-top: 25px;
+        font-size: 1.5em;
+    }
+
+    .noticiasNovas>h2 {
+        color: white;
+        font-size: .8em;
+        padding-top: 20px;
+    }
+
+    .noticiasNovas>p {
+        padding-bottom: 25px;
+        padding-top: 15px;
+        color: var(--corNeutra02);
+        font-size: .79em;
+    }
+
+    .noticiasNovas>hr {
+        color: var(--corNeutra03);
+        margin: auto;
+        width: 90%;
+    }
+
+}
+
