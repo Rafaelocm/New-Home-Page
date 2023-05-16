@@ -24,40 +24,45 @@
 
 body {
     font-family: Inter, sans-serif;
+    margin: 0;
     background-color: var(--corNeutra01);
+    overflow-x: hidden;
 }
 
 
 header {
     font-weight: 400;
-    padding-left: 100px;
     display: flex;
     align-items: center;
     height: 100px;
-    padding-right: 40px;
 }
 
-header>.logo {
-    width: 50px;
+nav.navbar{
+    max-width: 100%;
 }
 
-nav {
-    width: 100%;
-    text-align: end;
+.navbar .container-fluid{
+    padding-left: 20px;
+    max-width: 1350px;
 }
 
-nav>a {
-    padding: 10px;
-    text-decoration: none;
+.nav-item-ul{
+    list-style: none;
     color: var(--corNeutra03);
 }
 
+.nav-item-ul li{
+    padding-left: 15px;
+}
+
+.navbar-toggler {
+    display: none;
+}
 
 main {
+    padding-left: 20px;
     margin: 50px auto;
-    padding-left: 100px;
-    padding-right: 100px;
-    max-width: 1024px;
+    max-width: 1350px;
     min-width: 320px;
 }
 
@@ -90,7 +95,7 @@ main {
 }
 
 .futureWeb>div {
-    width: 50%;
+    width: 60%;
 }
 
 .futureWeb>div>p {
