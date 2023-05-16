@@ -84,7 +84,7 @@
 
     .futureWeb>div>p {
         padding: 0;
-        color: var(--corNeutra03);
+         color: var(--corNeutra04);
         line-height: 1.4em;
         text-align: justify;
         font-weight: 400;
@@ -92,6 +92,7 @@
     }
 
     .futureWeb>div>button {
+        font-size: 1em;
         margin: 15px 0 25px 0;
         letter-spacing: .2em;
         border: 0;
