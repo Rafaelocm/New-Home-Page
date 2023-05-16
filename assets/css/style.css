@@ -42,7 +42,6 @@ nav.navbar{
 }
 
 .navbar .container-fluid{
-    padding-left: 20px;
     max-width: 1350px;
 }
 
@@ -52,7 +51,15 @@ nav.navbar{
 }
 
 .nav-item-ul li{
-    padding-left: 15px;
+    padding-left: 30px;
+}
+
+.nav-item a{
+    font-size: 1.3em;
+}
+
+.nav-item a:hover{
+    color: hsl(5, 85%, 63%);;
 }
 
 .navbar-toggler {
@@ -73,12 +80,12 @@ main {
 }
 
 .divImage {
-    max-width: 850px;
+    max-width: 930px;
     min-width: 280px;
 }
 
 .divImage img {
-    max-width: 95%;
+    max-width: 93%;
 }
 
 .futureWeb {
@@ -88,10 +95,10 @@ main {
 }
 
 .futureWeb>h1 {
-    line-height: 1.7em;
-    font-weight: 800;
-    font-size: 2.5em;
-    width: 40%;
+    line-height: 1em;
+    font-weight: 900;
+    font-size: 3.5em;
+    width: 50%;
 }
 
 .futureWeb>div {
@@ -99,27 +106,34 @@ main {
 }
 
 .futureWeb>div>p {
+    margin: 0;
+    padding: 0;
     color: var(--corNeutra03);
-    line-height: 1.5em;
+    line-height: 1.8em;
+    font-size: 1.3em;
     text-align: justify;
     font-weight: 400;
 }
 
 .futureWeb>div>button {
-    margin-left: 7%;
     letter-spacing: .2em;
     margin-top: 15px;
     border: 0;
-    height: 35px;
+    height: 50px;
     width: 150px;
     background-color: var(--corPrimaria02);
     color: white;
 }
 
+.futureWeb>div>button:hover{
+    transition-duration: .5s;
+    background-color: var(--corNeutra04);
+}
+
 .noticiasNovas {
     align-items: center;
     background-color: var(--corNeutra04);
-    max-height: 100%;
+    max-height: 98%;
     max-width: 36%;
 }
 
@@ -137,24 +151,23 @@ p {
     font-family: Inter, sans-serif;
     font-weight: 700;
     padding-top: 25px;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .noticiasNovas>h2 {
     color: white;
-    font-size: 1em;
-    padding-top: 25px;
+    font-size: 1.2em;
+    padding-top: 10px;
 }
 
 .noticiasNovas>p {
-    padding-bottom: 25px;
-    padding-top: 15px;
+    padding-top: 20px;
     color: var(--corNeutra02);
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .noticiasNovas>hr {
-    color: var(--corNeutra03);
+    color: white;
     margin: auto;
     width: 90%;
 }
@@ -177,7 +190,7 @@ p {
 .grid-item-text>span {
     padding-right: 0;
     color: var(--corNeutra05);
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 700;
     padding-left: 15px;
 }
@@ -188,7 +201,7 @@ p {
     padding-top: 5px;
     font-weight: 700;
     width: 100%;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .grid-item-text>p {
@@ -197,5 +210,5 @@ p {
     padding-top: 5px;
     font-weight: 400;
     width: 100%;
-    font-size: .8em;
+    font-size: 1.2em;
 }

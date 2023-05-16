@@ -21,14 +21,23 @@
         height: 100px;
     }
 
-    nav.navbar{
+    nav.navbar {
         max-width: 100%;
     }
-    
-    .navbar .container-fluid{
+
+    .navbar .container-fluid {
         max-width: 928px;
     }
-    
+
+    .nav-item a {
+        font-size: 1.3em;
+    }
+
+    .nav-item a:hover {
+        color: hsl(5, 85%, 63%);
+    }
+
+
     main {
         margin: 50px auto;
         max-width: 928px;
@@ -52,33 +61,31 @@
     }
 
     .futureWeb {
-        margin: 0;
+        margin-top: 30px;
         display: flex;
     }
 
     .futureWeb>h1 {
-        padding-left: 25px;
-        line-height: 1.2em;
+        line-height: 1.8em;
         font-weight: 800;
-        font-size: 2em;
+        font-size: 2.2em;
         width: 40%;
     }
 
     .futureWeb>div {
-        margin-top: 50px;
-        width: 60%;
+        width: 50%;
     }
 
     .futureWeb>div>p {
+        padding: 0;
         color: var(--corNeutra03);
-        line-height: 1.3em;
+        line-height: 1.6em;
         text-align: justify;
         font-weight: 400;
         font-size: 1em;
     }
 
     .futureWeb>div>button {
-        margin-left: 20%;
         letter-spacing: .2em;
         margin-top: 15px;
         border: 0;
@@ -87,6 +94,12 @@
         background-color: var(--corPrimaria02);
         color: white;
     }
+
+    .futureWeb>div>button:hover {
+        transition-duration: .5s;
+        background-color: var(--corNeutra04);
+    }
+
 
     .noticiasNovas {
         align-items: center;
@@ -132,4 +145,3 @@
     }
 
 }
-
