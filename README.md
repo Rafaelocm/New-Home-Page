@@ -28,5 +28,5 @@
 
 <br> 
 
-<h3>Para visualizar a landing page <a href="https://rafaelocm.github.io/New-Home-Page/">🔗Lading Page New-Home-Page</a>
+<h3>Para visualizar a landing page <a href="https://rafaelocm.github.io/New-Home-Page/">Lading Page New-Home-Page</a>
 
