@@ -18,7 +18,6 @@
 
     .nav-item-ul {
         list-style: none;
-        color: var(--corNeutra03);
     }
 
     .nav-item-ul li {
@@ -48,10 +47,43 @@
         color: hsl(5, 85%, 63%);
     }
 
-
     .navbar-toggler {
+        background-color: var(--corNeutra02);
         display: block;
     }
+
+    #offcanvasNavbar {
+        transition-duration: .5s;
+        background-color: var(--corNeutra01);
+    }
+
+    .navbar-brand {
+        color: var(--corNeutra06);
+    }
+
+    #toogleUl>li>a {
+        color: var(--corNeutra06);
+    }
+
+
+    #toogleUl>li>button {
+        color: var(--corNeutra06);
+    }
+
+    #toogleUl>li>a:hover {
+        color: hsl(5, 85%, 63%);
+    }
+
+
+    #toogleUl>li>button:hover {
+        color: hsl(5, 85%, 63%);
+    }
+
+
+    .btn-close {
+        background-color: var(--corNeutra02);
+    }
+
 
     main {
         margin: 50px auto;
@@ -94,7 +126,7 @@
 
     .futureWeb>div>p {
         padding: 0;
-        color: var(--corNeutra04);
+        color: var(--corNeutra06);
         line-height: 1.5em;
         text-align: justify;
         font-weight: 400;
