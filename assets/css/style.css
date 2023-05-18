@@ -192,7 +192,7 @@ main {
 
 .noticiasNovas {
     align-items: center;
-    background-color: var(--corNeutra07);
+    background-color: var(--corNeutra04);
     max-height: 98%;
     max-width: 36%;
 }
