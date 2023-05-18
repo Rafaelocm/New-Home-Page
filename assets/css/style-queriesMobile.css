@@ -19,27 +19,11 @@
     .nav-item a {
         font-size: 1.3em;
     }
-
-    .nav-item button {
-        color: hsl(236, 13%, 42%);
-        font-size: 1.3em;
+    
+    .navbar-brand {
+        padding: 0;
+        color: var(--corNeutra06);
     }
-
-    .nav-item button:hover {
-        color: hsl(5, 85%, 63%);
-    }
-
-
-    .nav-item button {
-        width: 100%;
-        align-items: center;
-        font-size: 1.3em;
-    }
-
-    .nav-item button:hover {
-        color: hsl(5, 85%, 63%);
-    }
-
 
     main {
         padding: 0 20px;
