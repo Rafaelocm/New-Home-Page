@@ -1,17 +1,3 @@
-:root {
-    /*Cores Primarias*/
-    --corPrimaria01: hsl(35, 77%, 62%);
-    --corPrimaria02: hsl(5, 85%, 63%);
-
-    --corNeutra01: hsl(36, 100%, 99%);
-    --corNeutra02: hsl(233, 8%, 79%);
-    --corNeutra03: hsl(236, 13%, 42%);
-    --corNeutra04: hsl(240, 100%, 5%);
-    --corNeutra05: hsla(236, 13%, 42%, 0.651);
-
-}
-
-
 @media screen and (max-width: 880px) {
 
     header {
@@ -43,9 +29,25 @@
         font-size: 1.3em;
     }
 
+    .nav-item button {
+        width: 100%;
+        align-items: center;
+        font-size: 1.3em;
+    }
+
     .nav-item a:hover {
         color: hsl(5, 85%, 63%);
     }
+
+    .nav-item button {
+        color: hsl(236, 13%, 42%);
+        font-size: 1.3em;
+    }
+
+    .nav-item button:hover {
+        color: hsl(5, 85%, 63%);
+    }
+
 
     .navbar-toggler {
         display: block;
@@ -92,7 +94,7 @@
 
     .futureWeb>div>p {
         padding: 0;
-         color: var(--corNeutra04);
+        color: var(--corNeutra04);
         line-height: 1.5em;
         text-align: justify;
         font-weight: 400;
@@ -128,7 +130,7 @@
         max-width: 100%;
     }
 
-    .noticiasNovas>h1 {
+    .noticiasNovas h1 {
         color: var(--corPrimaria01);
         font-family: Inter, sans-serif;
         font-weight: 700;
@@ -136,20 +138,20 @@
         font-size: 1.5em;
     }
 
-    .noticiasNovas>h2 {
+    .noticiasNovas h2 {
         color: white;
         font-size: .8em;
         padding-top: 20px;
     }
 
-    .noticiasNovas>p {
+    .noticiasNovas p {
         padding-bottom: 25px;
         padding-top: 15px;
         color: var(--corNeutra02);
         font-size: .79em;
     }
 
-    .noticiasNovas>hr {
+    .noticiasNovas hr {
         color: var(--corNeutra03);
         margin: auto;
         width: 90%;

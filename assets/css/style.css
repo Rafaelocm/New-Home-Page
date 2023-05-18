@@ -60,7 +60,11 @@ nav.navbar {
 
 .nav-item a:hover {
     color: hsl(5, 85%, 63%);
-    ;
+}
+
+.nav-item button{
+    color: hsl(236, 13%, 42%);
+    font-size: 1.3em;
 }
 
 .navbar-toggler {
@@ -148,7 +152,7 @@ p {
     padding-right: 25px;
 }
 
-.noticiasNovas>h1 {
+.noticiasNovas h1 {
     color: var(--corPrimaria01);
     font-family: Inter, sans-serif;
     font-weight: 700;
@@ -156,19 +160,19 @@ p {
     font-size: 3em;
 }
 
-.noticiasNovas>h2 {
+.noticiasNovas h2 {
     color: white;
     font-size: 1.2em;
     padding-top: 10px;
 }
 
-.noticiasNovas>p {
+.noticiasNovas p {
     padding-top: 20px;
     color: var(--corNeutra02);
     font-size: 1.2em;
 }
 
-.noticiasNovas>hr {
+.noticiasNovas hr {
     color: white;
     margin: auto;
     width: 90%;
