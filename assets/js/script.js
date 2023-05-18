@@ -1,4 +1,14 @@
-  function switchTheme() {
-      document.body.classList.toggle('darktheme');
-      document.body.classList.toggle('lighttheme');
-  }
+
+const chk = document.getElementById('chk');
+
+chk.addEventListener('change', () => {
+  document.body.classList.toggle('darktheme');
+});
+
+const toogle = document.getElementById('toogle');
+
+toogle.addEventListener('change', () => {
+  document.body.classList.toggle('darktheme');
+});
+
+
