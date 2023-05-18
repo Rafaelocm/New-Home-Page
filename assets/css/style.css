@@ -296,7 +296,6 @@ p {
 }
 
 footer#footer {
-    margin-left: 5vh;
     text-align: center;
     background-color: var(--corNeutra01);
     font-size: 1em;
