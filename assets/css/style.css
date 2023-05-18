@@ -19,10 +19,42 @@
     --corNeutra03: hsl(236, 13%, 42%);
     --corNeutra04: hsl(240, 100%, 5%);
     --corNeutra05: hsla(236, 13%, 42%, 0.651);
+}
 
+.lighttheme {
+    /*Cores Primarias*/
+    --corPrimaria01: hsl(35, 77%, 62%);
+    --corPrimaria02: hsl(5, 85%, 63%);
+
+    --corNeutra01: hsl(36, 100%, 99%);
+    --corNeutra02: hsl(233, 8%, 79%);
+    --corNeutra03: hsl(236, 13%, 42%);
+    --corNeutra04: hsl(240, 100%, 5%);
+    --corNeutra05: hsla(236, 13%, 42%, 0.651);
+    --corNeutra06: hsl(240, 100%, 5%);
+    --corNeutra07: hsl(240, 100%, 5%);
+    --corNeutra08: white;
+    --backgroundImage: url('assets/images/logo.svg');
+}
+
+.darktheme {
+    /*Cores Primarias*/
+    --corPrimaria01: hsl(35, 77%, 62%);
+    --corPrimaria02: hsl(5, 85%, 63%);
+
+    --corNeutra01: #36384F;
+    --corNeutra02: hsl(233, 8%, 79%);
+    --corNeutra03: white;
+    --corNeutra04: hsl(240, 100%, 5%);
+    --corNeutra05: white;
+    --corNeutra06: white;
+    --corNeutra07: #36384F;
+    --corNeutra08: white;
+    --backgroundImage: url('assets/images/logoBranca.jpg');
 }
 
 body {
+    transition-duration: .5s;
     font-family: Inter, sans-serif;
     margin: 0;
     background-color: var(--corNeutra01);
@@ -31,6 +63,7 @@ body {
 
 
 header {
+    background-color: var(--corNeutra01);
     font-weight: 400;
     display: flex;
     align-items: center;
@@ -38,20 +71,32 @@ header {
 }
 
 nav.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
     max-width: 100%;
 }
 
+.navbar-brand {
+    color: var(--corNeutra06);
+}
+
 .navbar .container-fluid {
+    transition-duration: .5s;
+    background-color: var(--corNeutra01);
     max-width: 1350px;
 }
 
-.nav-item-ul {
+#nav-item-ul {
     list-style: none;
     color: var(--corNeutra03);
 }
 
 .nav-item-ul li {
-    padding-left: 30px;
+    padding-left: 55px;
+}
+
+.nav-item-ul > li > button{
+    padding-right: 15px;
 }
 
 .nav-item a {
@@ -59,12 +104,20 @@ nav.navbar {
 }
 
 .nav-item a:hover {
+    transition-duration: .5s;
+    text-decoration: underline;
     color: hsl(5, 85%, 63%);
 }
 
-.nav-item button{
-    color: hsl(236, 13%, 42%);
+.nav-item button {
+    color: var(--corNeutra03);
     font-size: 1.3em;
+}
+
+.nav-item button:hover {
+    color: hsl(5, 85%, 63%);
+    transition-duration: .5s;
+    text-decoration: underline;
 }
 
 .navbar-toggler {
@@ -100,6 +153,7 @@ main {
 }
 
 .futureWeb>h1 {
+    color: var(--corNeutra06);
     line-height: 1em;
     font-weight: 900;
     font-size: 3.5em;
@@ -113,7 +167,7 @@ main {
 .futureWeb>div>p {
     margin: 0;
     padding: 0;
-    color: var(--corNeutra04);
+    color: var(--corNeutra06);
     line-height: 1.8em;
     font-size: 1.3em;
     text-align: justify;
@@ -138,7 +192,7 @@ main {
 
 .noticiasNovas {
     align-items: center;
-    background-color: var(--corNeutra04);
+    background-color: var(--corNeutra07);
     max-height: 98%;
     max-width: 36%;
 }
@@ -156,12 +210,11 @@ p {
     color: var(--corPrimaria01);
     font-family: Inter, sans-serif;
     font-weight: 700;
-    padding-top: 25px;
     font-size: 3em;
 }
 
 .noticiasNovas h2 {
-    color: white;
+    color: var(--corNeutra08);
     font-size: 1.2em;
     padding-top: 10px;
 }
@@ -173,7 +226,7 @@ p {
 }
 
 .noticiasNovas hr {
-    color: white;
+    color: var(--corNeutra02);
     margin: auto;
     width: 90%;
 }
@@ -195,13 +248,14 @@ p {
 
 .grid-item-text>span {
     padding-right: 0;
-    color: var(--corNeutra05);
+    color: var(--corNeutra03);
     font-size: 2em;
     font-weight: 700;
     padding-left: 15px;
 }
 
 .grid-item-text>h2 {
+    color: var(--corNeutra06);
     padding-right: 0;
     padding-left: 15px;
     padding-top: 5px;
@@ -211,6 +265,7 @@ p {
 }
 
 .grid-item-text>p {
+    color: var(--corNeutra06);
     padding-right: 0;
     padding-left: 15px;
     padding-top: 5px;

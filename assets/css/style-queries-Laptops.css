@@ -20,7 +20,7 @@
     }
 
     .nav-item button {
-        color: hsl(236, 13%, 42%);
+        color: var(--corNeutra06);
         font-size: 1.3em;
     }
 
@@ -64,7 +64,7 @@
 
     .futureWeb>div>p {
         padding: 0;
-        color: var(--corNeutra04);
+        color: var(--corNeutra06);
         line-height: 1.6em;
         text-align: justify;
         font-weight: 400;
